@@ -1,11 +1,10 @@
 .flex-container {
-  display: flex;
   background-color: rgb(182, 235, 182);
   border: 6px solid green;
   padding: 10px;
 }
 
-.flex-container div{
+.flex-container .car{
   box-sizing: border-box;
   display:flex;
 }
@@ -24,16 +23,16 @@
   box-sizing: border-box;
   background: lightblue;
   border: 4px solid blue;
-  height: 150px;
+  height: 120px;
   width: 100%;
-  flex:1;
+
 }
 .one-one {
   background: peachpuff;
   border: 4px solid brown;
   height: 75px;
   flex: 1;
-  margin: 30px 10px;
+  margin: 15px 10px;
   padding: 4px;
 }
 .one-one-one {
@@ -44,5 +43,55 @@
 .two{
   background-color: rgb(207, 179, 174);
   border: 4px solid red;
-  height: 300px;
+  height: 200px;
+  flex:1;
+  margin: 10px 5px;
+}
+.three-four {
+  box-sizing: border-box;
+  background-color:transparent;
+  border: 0px;
+  height: 200px;
+  flex:1;
+  margin: 10px 10px;
+  
+}
+.three{
+  box-sizing: border-box;
+  background-color: rgb(207, 179, 174);
+  border: 4px solid red;
+  height: 100px;
+  flex:1;
+}
+.four{
+  box-sizing: border-box;
+  background-color: rgb(207, 179, 174);
+  border: 4px solid red;
+  height: 100px;
+  margin-top: 10px;
+  flex:1;
+}
+.five {
+  box-sizing: border-box;
+  background: lightblue;
+  border: 4px solid blue;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+}
+.five-two{
+  background: rgb(161, 140, 255);
+  border: 4px solid rgb(44, 42, 165);
+  height: 75px;
+  flex: 2;
+  margin: 10px 5px;
+  padding: 4px;
+}
+.five-one{
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 75px;
+  flex: 1;
+  margin: 10px 5px;
+  padding: 4px;
 }
