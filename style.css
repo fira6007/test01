@@ -1,3 +1,6 @@
+body{
+  margin: 20%;
+}
 .flex-container {
   background-color: rgb(182, 235, 182);
   border: 6px solid green;
